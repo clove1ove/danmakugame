@@ -129,7 +129,7 @@ export default function App() {
                 <div id="difficulty-picker" className="mb-8 text-left bg-slate-950 border border-slate-800/80 rounded-xl p-4">
                   <div className="flex items-center gap-2 mb-3 text-xs font-mono font-semibold text-slate-400">
                     <Shield className="w-3.5 h-3.5 text-orange-400" />
-                    <span>SELECT DIFFICULTY (難易度選択)</span>
+                    <span>難易度選択</span>
                   </div>
                   <div className="grid grid-cols-2 gap-2">
                     {(['EASY', 'NORMAL', 'HARD', 'LUNATIC'] as Difficulty[]).map((diff) => (
